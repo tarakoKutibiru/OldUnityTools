@@ -1,6 +1,6 @@
 {
     "name": "tarakoKutibiru.OldUnityTools",
-    "rootNamespace": "",
+    "rootNamespace": "tarakoKutibiru.OldUnityTools",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
