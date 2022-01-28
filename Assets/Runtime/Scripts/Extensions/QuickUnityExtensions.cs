@@ -5,7 +5,6 @@ using System;
 using System.Linq;
 using System.Text.RegularExpressions;
 using UnityEngine.SceneManagement;
-using QuickUnityTools.Audio;
 
 public static class QuickUnityExtensions {
 
@@ -139,10 +138,6 @@ public static class QuickUnityExtensions {
 
     public static IEnumerable<T> Yield<T>(this T item) {
         yield return item;
-    }
-
-    public static AudioSource Play(this AudioClip clip) {
-        return SoundPlayer.instance.Play(clip);
     }
 
     public static bool IncludesLayer(this LayerMask mask, int layer) {
